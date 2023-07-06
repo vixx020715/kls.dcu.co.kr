@@ -39,16 +39,16 @@
 
     /* 로고 이미지 스타일 */
     #logo {
-      width: 400px;
-      height: 200px;
+      width: 650px; /* Adjust the width as per your requirement */
+      height: 200px; /* Adjust the height as per your requirement */
       cursor: pointer;
       vertical-align: middle;
     }
     #logo-text{
-      width: 400px;
+      width: 600px;
       height: 200px;
       color: white;
-      font-size: 35px;
+      font-size: 70px;
     }
 
     /* 링크 버튼 스타일 */
@@ -62,7 +62,7 @@
       color: #022b67;
       text-decoration: none;
       font-weight: bold;
-      font-size: 25px;
+      font-size: 23px;
       border-radius: 10px;
       border: 2px solid #0154cc;
       transition: background-color 0.3s ease;
@@ -97,46 +97,46 @@
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<!-- Add your site or application content here -->
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
 
-  <div id="header">
-    <a href="https://www.cu.ac.kr/index.php">
-      <img id="logo" src="https://academics.cu.ac.kr/static/_user/assets/images/pages/common/logo_white.svg" alt="대구가톨릭대학교">
-    </a>
-    <span id="logo-text"> | 언어교육원 </span>
-  </div>
-  <div id="main">
-    <a class="link-button" href="https://academics.cu.ac.kr/home/detail/etc/klei">
-      <span id="korean-program" style="font-size: 40px;"><br>한국어 교육과정</span>
-      <br><br> KOREAN LANGUAGE<br>EDUCATION PROGRAM<br><br>- 외국인을 위한<br> 한국어, 문화 수업 </a>
-    <a class="link-button" href="https://academics.cu.ac.kr/home/detail/etc/dculei/">
-      <span id="FOREIGH-program" style="font-size: 40px;"><br>외국어 교육과정</span>
-      <br><br> FOREIGN LANGUAGE <br>EDUCATION PROGRAM<br><br> - 교양필수(실용영어)<br> - 교양선택(외국어)</a>
-    <a class="link-button" href="https://cu.ttceducation.net/campusedu/">
-      <span id="program" style="font-size: 40px;"><br>언어교육원<br> 외국어 강좌</span>
-      <br>- 토익, 토플 <br> - 외국어 회화<br><br></a>
-  </div>
+<div id="header">
+  <a href="https://www.cu.ac.kr/index.php">
+    <img id="logo" src="https://academics.cu.ac.kr/static/_user/assets/images/pages/common/logo_white.svg" alt="대구가톨릭대학교">
+  </a>
+  <span id="logo-text"> | 언어교육원 </span>
+</div>
+<div id="main">
+  <a class="link-button" href="https://academics.cu.ac.kr/home/detail/etc/klei">
+    <span id="korean-program" style="font-size: 40px;"><br>한국어 교육과정</span>
+    <br> KOREAN LANGUAGE<br>EDUCATION PROGRAM<br><br>- 외국인을 위한 한국어, 문화 수업<br>Korean Language <br>& Cultural Class </a>
+  <a class="link-button" href="https://academics.cu.ac.kr/home/detail/etc/dculei/">
+    <span id="FOREIGH-program" style="font-size: 40px;"><br>외국어 교육과정</span>
+    <br> FOREIGN LANGUAGE <br>EDUCATION PROGRAM<br><br> - 교양필수(실용영어)<br> - 교양선택(외국어)</a>
+  <a class="link-button" href="https://cu.ttceducation.net/campusedu/">
+    <span id="program" style="font-size: 40px;"><br> 외국어 강좌</span>
+    <br><br>- 토익, 토플, 토스 <br>- 전화영어 <br> - 외국어 회화<br> - 언어특강정보<br></a>
+</div>
 
-  <script>
-    // 로고 클릭 시 대구가톨릭대학교 홈페이지로 이동
-    document.getElementById("logo").addEventListener("click", function() {
-      window.location.href = "https://www.cu.ac.kr/index.php";
-    });
+<script>
+  // 로고 클릭 시 대구가톨릭대학교 홈페이지로 이동
+  document.getElementById("logo").addEventListener("click", function() {
+    window.location.href = "https://www.cu.ac.kr/index.php";
+  });
 
-    // 로고 텍스트 클릭 시 페이지 새로고침
-    document.getElementById("logo-text").addEventListener("click", function() {
-      location.reload();
-    });
-  </script>
+  // 로고 텍스트 클릭 시 페이지 새로고침
+  document.getElementById("logo-text").addEventListener("click", function() {
+    location.reload();
+  });
+</script>
 </body>
 
 </html>
